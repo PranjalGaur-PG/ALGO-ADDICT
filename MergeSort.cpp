@@ -5,6 +5,11 @@ using namespace std;
 // Merges two subarrays of arr[].
 // First subarray is arr[l..m]
 // Second subarray is arr[m+1..r]
+
+// The Merge Sort algorithm is a sorting algorithm that is based on the Divide and Conquer paradigm.
+// In this algorithm, the array is initially divided into two equal halves and then they are combined in a sorted manner.
+// Time complexity of merge sort is O(nlogn) in average, best and worst cases.
+
 void merge(int arr[], int l, int m, int r)
 {
 	int n1 = m - l + 1;
